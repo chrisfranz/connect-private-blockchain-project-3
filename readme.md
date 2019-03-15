@@ -1,4 +1,4 @@
-# Project #3. RESTful API with Node.js Framework
+# Project #3: RESTful API with Node.js Framework
 This is Project 3: RESTful API with Node.js Framework. In this project I created two endpoints to access and add blocks to my private blockchain.
 
 ## Setup project for Review.
@@ -22,7 +22,7 @@ http://localhost:8000/
 
 ## The project featurs 2 endpoints:
 
-# 1. GET Block
+### 1. GET Block
 URL:
   http://localhost:8000/block/[blockheight]
 
@@ -32,11 +32,12 @@ Example URL path:
 Response:
   The response provides a block object of corresponding height in JSON format.
 
-# 2. POST Block
+### 2. POST Block
   URL:
     http://localhost:8000/block
-  ````
+
   Payload:
+  ````
     {
       "data": "insert block body data here"
     }
